@@ -1,0 +1,22 @@
+# Large model files and outputs
+outputs/checkpoints/
+outputs/mlruns/
+outputs/synthetic/
+outputs/evaluation/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Mac
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+.venv
+venv/

@@ -1,0 +1,43 @@
+{
+  "class_names": [
+    "ADI",
+    "BACK",
+    "DEB",
+    "LYM",
+    "MUC",
+    "MUS",
+    "NORM",
+    "STR",
+    "TUM"
+  ],
+  "distribution": {
+    "counts": [
+      1338,
+      847,
+      339,
+      634,
+      1035,
+      592,
+      741,
+      421,
+      1233
+    ],
+    "imbalance_ratio": 3.95,
+    "median_count": 741,
+    "minority_threshold": 556
+  },
+  "normalization": {
+    "mean": [
+      0.7268356937053978,
+      0.535336906134689,
+      0.7091793409991735
+    ],
+    "std": [
+      0.18207031614206912,
+      0.24260362456130208,
+      0.17732461226764934
+    ],
+    "n_pixels_sampled": 360263680
+  },
+  "note": "Replace IMAGENET_MEAN/STD in data/loader.py with normalization.mean and normalization.std for H&E-specific accuracy."
+}
