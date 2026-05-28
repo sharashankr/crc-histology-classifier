@@ -1,3 +1,5 @@
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Sharashankr/crc-histology-classifier)
+
 # CRC Histology Classifier
 
 End-to-end deep learning pipeline for colorectal cancer tissue classification on the [NCT-CRC-HE](https://huggingface.co/datasets/owkin/nct-crc-he) dataset, with Stable Diffusion img2img synthetic augmentation for minority classes and a production web app with GradCAM explainability and Monte Carlo Dropout uncertainty quantification.
